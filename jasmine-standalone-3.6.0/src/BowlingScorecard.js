@@ -2,9 +2,9 @@
 
 class BowlingScorecard {
   
-  notStrikeOrSpare(a, b){
-    if(a + b < 10){
-      return a + b
+  notStrikeOrSpare(roll1, roll2){
+    if(roll1 + roll2 < 10){
+      return roll1 + roll2
     }
   }
 
